@@ -1,0 +1,126 @@
+*{                                            /* * দ্বারা full বডির ওপর css ব্যাবহার করতে পারি  */          
+    margin: 0px;
+    padding: 0px;
+ }
+nav{                                           /*  ⇒ tag কে শুধু tag name দ্বারা use  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;                     /* content কে center এ আনতে */
+    background-color: rgb(193, 188, 188);
+    padding: 10px;
+ }
+.logo{                                               /* --> class কে dot ( . ) দ্বারা use */  
+   width: 166px;
+ }
+li{
+   list-style: none;   /* list এর সামনের style( ) / dot ( ) remove /none  */
+   font-size: 20px;
+}
+li:hover{   /* list এ mouse cursor নিয়ে গেলে list কেমন show করবে */
+   color: blue;         /* ⇒ cursor list এ নিয়ে গেলে color টা bule আর cursor টা pointer এ change  */
+   cursor: pointer;
+   font-size: 30px;
+}
+.menu-container{
+   display: flex;  /* একই row তে আনতে */
+   gap: 15px;   /*  মাঝে মাঝে gap দিতে */
+ }
+.banner-img{
+    width: 333px;
+}
+.banner-container{
+display: flex;                 /*-->ক্লাস এর ভিতর এর সবকিছু পাশা পাশি আনতে  */
+justify-content: space-around;
+align-items: center;  
+width: 100%;
+margin: auto;
+}
+.banner-left{
+               width: 400px;
+               line-height: 1.5;
+           }
+.btn{
+     padding: 15px 30px;
+     border: none;        /*--> button এর border থাকবে না */    
+   color: white;
+   cursor: pointer;
+   font-size: large;
+    }
+.hire-btn{
+            background-color: rgb(100, 58, 141);
+         }
+.project-btn{
+                 background-color: rgb(20, 48, 134);
+              }
+.title{
+      font-size: 45px;
+   }
+
+
+
+
+   /* main body style */
+
+
+   .service-title{
+    margin: 30px 0px ;
+    font-size: 50px;
+    text-align: center;
+ }
+.service-card{
+    width: 300px;
+    height: 400px;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 7px;                /*-->  কোণ দুই পাশে একটু round   */
+    text-align: center;
+}
+.service-img{
+   width: 250px;
+}
+.service-card-btn{
+   padding: 15px 25px;
+   background-color: rgb(45, 156, 140);
+   border: none;
+   font-size: 18px;
+   font-weight: bold;  
+}
+.service-description{
+   margin: 10px;
+}
+.services{
+  display: flex;
+  justify-content: center;
+   gap: 50px;
+}
+a{
+  text-decoration: none;
+  color: rgb(226, 226, 226);
+}
+.contact-us{
+  padding: 50px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 4px 4px 8px rgb(133, 17, 17);   /*-->  shadow এর color   */
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+.input-box{
+  padding: 15px;
+  width: 50%;
+  margin-top: 10px;
+}
+.message{
+ width: 40%;
+ height: 100px;
+ margin-top: 15px;
+}
+.submit-btn{
+ width: 25%;
+  padding: 15px;
+  background-color: blue;
+  color: white;
+  border: none;
+  margin-top: 10px;
+}  

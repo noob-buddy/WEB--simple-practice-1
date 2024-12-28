@@ -1,11 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-       git-hub
-</body>
+
+  <body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <img src="image/logo.jpeg" alt="logo pic" class="logo">
+            </div>
+            <div class="menu-container">
+                <li>Home</li>
+                <li>Services</li>
+                <li>About Us</li>
+                <li>Contact</li>
+            </div>
+        </nav>
+
+        <section class="banner-container">
+            <div class="banner-left">
+                <h1 class="title">M. Girl </h1>
+                <h5>Web Devlopment</h5>
+                <!-- ==> lorem short cut: alt + z  -->
+                <p>
+                    saepe corrupti iusto accusantium cupiditate dolorum, soluta dicta maxime a
+                    perferendis natus possimus impedit nemo quis culpa suscipit maxime illo
+                    molestiae? Rerum quis at modi doloribus voluptates? Totam! dolore.
+                </p>
+                <button class="btn hire-btn">Hire Me</button> <!--   ⇒  দুইটা class একসাথে use -->
+                <button class="btn project-btn">See Project</button>
+            </div>
+            <div class="banner-right">
+                <img src="image/girl.jpg" alt="girl pic" class="banner-img">
+            </div>
+        </section>
+
+
+    </header>
+
+
+    <main>
+        <section class="service-container">
+            <h1 class="service-title"> My Service's </h1>
+            <div class="services">
+                <div class="service-card">
+                    <img src="image/web.png" alt="" class="service-img">
+                    <h1>Web Devlopment</h1>
+                    <p class="service-description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium quia nesciunt, voluptatem
+                        quasi facilis a ipsam alias non fugit dignissimos at!
+                    </p>
+                    <button class="service-card-btn">
+                        <a target="_blank" href="https://www.google.com">Details</a>
+                    </button>
+                </div>
+                <div class="service-card">
+                    <img src="image/digital marketing.jpg" alt="" class="service-img">
+                    <h1>Digital marketing</h1>
+                    <p class="service-description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium quia nesciunt, voluptatem
+                        quasi facilis a ipsam alias non fugit dignissimos at!
+                    </p>
+                    <button class="service-card-btn">
+                        <a target="_blank" href="https://www.google.com">Details</a>
+                    </button>
+                </div>
+                <div class="service-card">
+                    <img src="image/seo.png" alt="" class="service-img">
+                    <h1>SEO Devlopment</h1>
+                    <p class="service-description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium quia nesciunt, voluptatem
+                        quasi facilis a ipsam alias non fugit dignissimos at!
+                    </p>
+                    <button class="service-card-btn">
+                        <a target="_blank" href="https://www.google.com">Details</a>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="contact-us">
+            <h1 class="service-title">Contact With Us</h1>
+            <form action="">
+                <input type="text" class="input-box" placeholder="Type Your Name" required>
+                <input type="email" class="input-box" placeholder="Type Your Email" required> <br>
+                <input type="text" class="message" placeholder="Type Your Message" required> <br>
+                <input type="submit" class="submit-btn" value="SEND" required> <br>
+            </form>
+        </section>
+    </main>
+  </body>
+
+
+
 </html>
